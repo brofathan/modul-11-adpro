@@ -30,8 +30,10 @@ Sebelum service dijalankan, kubectl hanya menjalankan server dengan port nya saj
 ![image](https://github.com/brofathan/modul-11-adpro/assets/45114836/80dda4e3-b798-4c6b-9be2-1b2fda726c30)
 
 3. Screenshot for executing Recreate strategy
-start the minikube
+<br>start the minikube after delete
 ![image](https://github.com/brofathan/modul-11-adpro/assets/45114836/d179975a-90a8-4d7c-a9cc-1ba059d866e6)
+
+4. Kubernetes manifest filles memberikan banyak benefit dalam proses deployment. Seperti lebih simpel dan sederhana juga lebih scalable. Beberapa contohnya seperti dengan menggunakan manifest file, file tersebut dapat di-store di dalam version control seperti git. Selain itu, manifest file tersebut juga dapat diintegrasikan di CI/CD. Benefit lain dari manifest file juga, jika kita ingin membuat deployment, service, kita tidak perlu ribet-ribet. Cukup menjalankan satu line yaitu ```kubectl apply -f <yaml files>``` dengan yaml files yang merupakan manifest file nya.
 
 
 
